@@ -12,4 +12,5 @@ func printer() {
 	fmt.Printf("Binary of 10 is -> %b \n", 10)
 	fmt.Printf("Character 33 in ASCII table -> %c \n", 33)
 	fmt.Printf("x in hexadecimal -> %x \n", 15)
+
 }
