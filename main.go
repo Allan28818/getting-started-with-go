@@ -17,4 +17,5 @@ func main() {
 	printer()
 	basicLoop(10, 30)
 	conditionals(100)
+	arrays()
 }
