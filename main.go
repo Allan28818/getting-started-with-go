@@ -14,4 +14,5 @@ func main() {
 	fmt.Printf("Ponteiro de %d -> %p\n", my_pointer_value, my_pointer_address)
 	changeValue(&my_pointer_value, 10)
 	fmt.Printf("Ponteiro de %d -> %p\n", my_pointer_value, my_pointer_address)
+	printer()
 }
