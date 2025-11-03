@@ -19,4 +19,5 @@ func main() {
 	conditionals(100)
 	arrays()
 	Map()
+	fmt.Println(factorial(3))
 }
