@@ -18,4 +18,5 @@ func main() {
 	basicLoop(10, 30)
 	conditionals(100)
 	arrays()
+	Map()
 }
