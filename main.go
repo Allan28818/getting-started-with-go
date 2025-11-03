@@ -9,5 +9,6 @@ func main() {
 	if is_alive {
 		fmt.Println("That's good that you're not dead!!!")
 	}
-
+	res, _ := divisionInt(10, 2)
+	fmt.Println(res)
 }
