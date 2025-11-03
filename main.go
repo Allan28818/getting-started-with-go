@@ -21,4 +21,5 @@ func main() {
 	Map()
 	fmt.Println(factorial(3))
 	controlStructures()
+	goStruct()
 }
