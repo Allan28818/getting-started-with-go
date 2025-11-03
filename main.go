@@ -24,7 +24,5 @@ func main() {
 	goStruct()
 	interfaceGo()
 
-	var cat Cat = Animal{specie: "cat", legs: 3, age: 3}
-
-	cat.privateSpeak()
+	handle_file()
 }
