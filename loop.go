@@ -4,7 +4,7 @@ import "fmt"
 
 func basicLoop(line int, column int) {
 	// O(n^2) loop
-	// When index is not important
+	// When middle operation is not important
 	for range line {
 		for j := range column {
 
@@ -17,7 +17,7 @@ func basicLoop(line int, column int) {
 		fmt.Println()
 	}
 
-	// When we need to know the index
+	// With explicit middle item
 	for i := 0; i < 10; i++ {
 		fmt.Printf("%d\n", i)
 	}
