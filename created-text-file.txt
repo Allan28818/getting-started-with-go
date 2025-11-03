@@ -1,1 +1,1 @@
-is our text file new new
+This is our recently created text file

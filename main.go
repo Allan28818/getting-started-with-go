@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+)
 
 func main() {
 
@@ -25,4 +28,12 @@ func main() {
 	interfaceGo()
 
 	handle_file()
+
+	http.HandleFunc("/heart-beat", handler)
+
+	http.ListenAndServe(":8080", nil)
+}
+
+func handler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, "Hello API!!!")
 }
