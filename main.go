@@ -9,7 +9,7 @@ func main() {
 	if is_alive {
 		fmt.Println("That's good that you're not dead!!!")
 	}
-	res, _ := divisionInt(10, 2)
+	res := divisionInt(10, 2)
 	fmt.Println(res)
 	fmt.Printf("Ponteiro de %d -> %p\n", my_pointer_value, my_pointer_address)
 	changeValue(&my_pointer_value, 10)
@@ -20,4 +20,5 @@ func main() {
 	arrays()
 	Map()
 	fmt.Println(factorial(3))
+	controlStructures()
 }

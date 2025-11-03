@@ -10,12 +10,16 @@ func subInt(a int, b int) int {
 	return a - b
 }
 
-func divisionInt(a int, b int) (int, error) {
+func divisionInt(a int, b int) int {
+	defer func() {
+		fmt.Println("error", recover())
+	}()
+
 	if b == 0 {
-		return 0, fmt.Errorf("You cannot divide by %f", b)
+		panic("Your cannot divide by zero")
 	}
 
-	return a / b, nil
+	return a / b
 }
 
 func multInt(a int, b int) int {
